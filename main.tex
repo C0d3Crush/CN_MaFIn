@@ -1,0 +1,166 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{amssymb}
+\usepackage{venndiagram}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{mathpazo}
+\usepackage{amsmath, amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\title{\huge Einleitung in die Stochastik}
+\author{Dein Name}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{2cm}
+        
+        %\includegraphics[width=0.5\textwidth]{university_logo} % Hier das Logo deiner Universität einfügen
+        
+        %\vspace{2cm}
+        
+        %{\LARGE \textbf{Fakultät für Mathematik}} \\
+        %\vspace{0.5cm}
+        %{\Large \textbf{Institut für Stochastik}}
+        
+        %\vspace{3cm}
+        
+        \rule{\textwidth}{0.4pt} \\
+        \vspace{0.5cm}
+        {\huge \textbf{Einleitung in die Stochastik}} \\
+        \vspace{0.5cm}
+        \rule{\textwidth}{0.4pt}
+        
+        \vspace{3cm}
+        
+        %{\Large \textbf{Bachelorarbeit/Masterarbeit/ Seminararbeit}} \\
+        
+        %\vspace{1.5cm}
+        
+        %{\large \textbf{Vorgelegt von}} \\
+        %{\Large \textbf{Dein Name}} \\
+        %{\large \textbf{Matrikelnummer: XXXXXXX}}
+        
+        \vfill
+        
+        {\large \textbf{Datum:} \today}
+        
+    \end{center}
+\end{titlepage}
+
+
+% Seitenränder einstellen
+%\geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+% Header Definition inieren
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{1pt}
+%\lhead{Lukas Dzielski}
+\rhead{Ruprecht-Karls-Universität Heidelberg \\ MaFIn}
+\lfoot{}
+\rfoot{\thepage}
+
+\section*{Grundlagen der Wahrscheinlichkeitstheorie}
+
+\paragraph*{Ziel:} Mathematisches Modell, welches die intuitive Idee "Wahrscheinlichkeit"(="relative Häufigkeit") beschreibt.
+\paragraph*{Anwendung:} 
+\begin{itemize}
+    \item Modellierung von Komplecxen Systemen (Aktienmarkt, Verkehr, Anfragen bei einem Server)
+    \item Randomisierte Algorithmen (Las-Vegas Algo., Modelierungs Algo. Primzahlentest)
+    \item Performance-Annalyse von Algorithmen (Durchschnittliche Laufzeit bei zufälligen Input)
+\end{itemize}
+
+\subsection*{Informelle Einführung:}
+\paragraph*{Experiment:} Würfeln mit zwei Würfeln A und b
+\paragraph*{Ausgang:} Ein Paar von Augenzahlen je zwischen 1 und 6 z.B. A zeigt 1 und B zeigt 4 \(\leadsto\) (1,4) Elementarereignis
+Ausgangsraum: \(6 \cdot 6 = 36\) Möglichekeiten.\\
+\\ \(\Omega = \{\) 
+\\ \((1,1), (1,2), (1,3), \cdots, (1,6)\)
+\\ \((2,1), (2,2), (2,3), \cdots, (2,6)\)
+\\ \(\cdots\}\)
+
+\subsection*{Sinnvolle Modellierung: }
+\begin{itemize}
+    \item[(i)] Eine Aussage des Experiments sollte genau einem \(w \in \Omega\) entsprechen.
+    \item[(ii)] \(\Omega\) sollte keine unmöglichen Ausgänge enthalten.
+\end{itemize}
+
+\subsection*{Wahrscheinlichkeiten}
+\paragraph*{Zuweisungen:} Zu jedem \(w \in \Omega\) \(p(w) \in [0, 1]\) zuweisen sodass \(\Sigma_{w \in \Omega} p(w) = 1\)
+Idee: Ein Elementarereignis muss auftreten.
+Hier: "faire Würfel" => gibt keinen Grund \(p(1,3) > p(5,6)\) 
+Also \(p(1,1) = \cdots = p(6,6) = \frac{1}{36}\)
+Möchten umfassende Ereignisse beschreiben z.B. die Summe der Augenzahl ist 3.
+\(A =\{(1,2), (2,1)\} \subseteq \Omega\)
+intuitiv: \(P(A) = p(1,2) + p(2,1) = 2 \cdot \frac{1}{36} = \frac{1}{18}\)
+
+\subsection*{Formale Einführung (Kolmogorov, 1933)}
+\paragraph*{Definition:} Ein \textbf{diskreter Wahrscheinlichkeitsraum} ist ein Paar \((\Omega, P)\) wobei: \(\Omega\) eine endliche oder eine abzählbar unendliche Menge ist (\textbf{Elementarereignise}) und \(P \cdot \mathcal{P} \rightarrow)\mathbb{R}\) ein \textbf{Wahrscheinlichkeitsmaß}, d.h (Wahrscheinlichkeitsverteilung)
+\begin{itemize}
+    \item [(i)] \(P(A) \geq 0 \forall A \in \mathcal{P}(A)\) Nichtnegativitätsgesetz
+    \item [(ii)] \(P(\Omega) = 1\) (Normierung)
+    \item  [(iii)] Für jede Folge \((A_i)_{i \in \mathbb{N}}\), \(A_i \in \mathcal{P}(\Omega)\), sodass \(A_i \cap A_j = \varnothing \forall i \not = j\) gilt \(P(\cup_{i \in \mathbb{N}} A_i) = \Sigma_{i \in \mathbb{N}} P(A_i)\)
+\end{itemize}
+
+\paragraph*{Insbesondere:} \(A, B \in \mathcal{P}(\Omega), A \cap B \not = \varnothing\) \(P(A \cup B) = P(A) + P(B)\)
+\paragraph{Eigenschaften:} \((\Omega, P)\) diskreter W-raum \(A, B \subseteq \Omega\) (Ereignisse)
+\begin{itemize}
+    \item [(a)] \(P(\varnothing) = 0\) \paragraph*{Denn: } \(1 =_{(ii)} P(\Omega) = P(\Omega \cup \varnothing) =_{(iii)} P(\Omega) + P(\varnothing) =_{(ii)} 1 + P(\varnothing) => P(\varnothing) = 0 \)
+    \item [(b)] \(P(A^c)(=\Omega/A) = 1 - P(A)\) \paragraph*{Denn:} \(P(A) + P(A^c) =_{(iii)} P(A \cup A^c) =_{(ii)} P(\Omega) = 1\)
+    \item [(c)] \(A \subseteq B => P(A) \leq P(B)\) \paragraph*{Denn: } \(P(B) = P(A \cup (B/A)) =_{(iii)} P(A)+P(B/A) \leq_{(i)} P(A)\)
+    \item [(d)] \(P(A \cup B) = P((B/A) \cup (A\cap B)) = P(B/A) + P(A\cap B)\) \paragraph*{Denn:} \(P(B) = P((B/A) \cup (A \cap B)) = P(B/A) + P(A \cap B) => P(B) - P(A\cap B)\) \\ \(P(A\cup B) = P(A \cup (B/A) =_{(iii)}) P(A) + P(B/A) =_{(*)} P(A) + P(B) - P(A \cap B)\)
+    \item [(e)] \(P(A \cup B) \leq P(A) + P(B)\) (folgt aus d + (i))
+\end{itemize}
+
+\subsection*{Gesetz disjunktiver Wahrscheinlichkeiten}
+\((\Omega, P)\) diskreter W-Raum, \(A = \{w_1, w_2, \cdots\} \subseteq \Omega\) \\ Ereignis \(P(A) =_{(iii)} P(\{w_1\}) + P(\{w_2\}+ \cdots) = \Sigma_{i \in \mathbb{N} P(\{w_i\})}\)
+\paragraph*{Definition : } Eine Funktion \(p : \Omega \to [0, 1] sodass \Sigma_{w \in \Omega} p(w) = 1\) heißt \textbf{Wahrscheinlichkeitsfunktion}.
+\paragraph*{Beispiel:} Würfel mit zwei Würfeln \(\Omega = \{1, 2, 3, 4, 5, 6\}^2, p(w) = \frac{1}{36} \forall w \in \Omega\) \\ \(P(A) = \Sigma_{w \in A} p(w) = \Sigma_{w \in A} \frac{1}{36} = \frac{\vert A \vert}{36} \forall A \subseteq \Omega\)
+\begin{itemize}
+    \item [(i)] \(P(A) = \frac{\vert A \vert}{36} \leq 0\)
+    \item [(ii)] \(P(\Omega) = \frac{\vert \Omega \vert}{36} = 1\) \\ \(A \cap B  = \varnothing P(A \cup B) = \frac{\vert A \cup B \vert}{36} = \frac{\vert A \vert + \vert B \vert}{36} = \frac{\vert A \vert }{36} + \frac{\vert B \vert }{36} = P(A) + P(B)\)
+\end{itemize}
+
+Beschreibe das Ereignis, dass mind. ein Würfel eine 1 zegt \(A = \{(1,1), \cdots, (1,6), (6,1) \cdots, (2,1)\}\) \(P(A = \frac{11}{36})\)
+
+\paragraph*{Definition : } Ein \textbf{endlicher} diskreter W-raum \((\Omega, P)\) heißt \textbf{gleichverteilt}, falls \(P(A) = \frac{\vert A \vert}{\vert \Omega \vert} \forall A \subseteq \Omega\) Wir können die gleichverteilung auf jeder endlcihen Menge \(\Omega\) Definition iniert und erhalten ein W-Maß.
+
+\subsection*{Beispiel: } 
+\begin{itemize}
+    \item [(a)]Würfer mit 2 roten Seiten und 4 blauen Seiten.
+    \(\Omega = \{rot, blau\}, p(rot) = \frac{2}{6} = \frac{1}{3}, p(blau) = \frac{2}{3}\) 
+    \item[(b)] \(\Omega = \{a, b, c, d\}\) (nicht gleichverteilt) \(p : \Omega \to [0,1]\) mit \(\Sigma_ w\in \Omega p(w) = 1\) \textbf{hier tabelle einfügen a = 1/10, b= 1/5, c = 1/2, d = ?} \(P(A) = \Sigma_{w\in A} p(w)\)
+    \item[(c)] abzählbar unendlich \(\Omega =\mathbb{N}, p(n) = (\frac{1}{2})^n\) \(P(\Omega) = \Sigma^{unendlich}_{n = 1} (\frac{1}{2})^n = \frac{1}{1-\frac{1}{2}} - 1 = 1\) Viele Experimente bestehen aus der Wiederholung desselben grundlegenden Experiments. \paragraph*{Definition :} Seien \(\Omega_1, \cdots, \Omega_n\)diskrete W-Räume mit W-funktionen \(p_1, \cdots, p_m\). Dann ist der \textbf{Produktraum} von \(\Omega_1, \cdots, \Omega_n\), das karteische Proukt \(\Omega_1 \times \cdots \times \Omega_n = \{(w_1, \cdots, w_n), w_i\in \Omega_i, 1 \leq i \leq n\}\) zusammen mit dem W-Maß Definition iniert durch die W-funktionen Definition iniert durch 
+    \[ 
+        p((w_1, \cdots, w_n)) = P_1(w_1) \cdot p_n(w_n) = \Pi^n_{i = 1 p_i(w_i)}
+    \]
+    \paragraph*{Beispiel:} Mit zwei Würfeln. Sei \(\Omega' = \{1, 2, 3, 4, 5, 6\}\) mit \(p' = \frac{1}{6} \forall a \in \Omega'\) der W-Raum der den Wurf von einem Würfel beschreibt, dann \(\Omega = \Omega' \times \Omega'\) \\ \(p((a,b)) = p'(a) \cdot p'(b) = \frac{1}{6} \cdot \frac{1}{6} = \frac{1}{36}\)
+\end{itemize}
+\paragraph*{Satz:} Der Produkraum \(\Omega_1 \times \Omega \times \cdots \Omega_n\) ist ein diskreter W-Raum.
+
+\paragraph*{Beweis:} \(1 \geq P((w_1, \cdots, w_n)) = p_1(w_1)\cdots p_n(w_n) \geq 0\) \\
+\(p: \Omega_1 \times \cdots \Omega_n \to [0, 1]\) \\
+\[
+    \Sigma_{(w_1, \cdots, w_n) \in \Omega_1 \times \cdots \times \Omega_n} p((w_1, \cdots, w_n)) 
+\]
+\[  = \Sigma_{w_1 \in \Omega_1} \Sigma_{w_2 \in \Omega_2} \cdots      \Sigma_{w_n \in \Omega_n} p_1(w_1 \cdots p_n(w_n)) 
+\]
+\[ = (\Sigma_{w_1 \in \Omega_1} p_1(w_1))(\Sigma_{w_2 \in \Omega_2} p_2(w_2)) \cdots (\Sigma_{w_n \in \Omega_n} p_n(w_n))
+\]
+\end{document}
+
+
+
