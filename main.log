@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  29 JAN 2024 22:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  1 FEB 2024 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/lukas/Documents/vscode_repo/23_24/MaFin/MafIn_script/main.tex
-(/Users/lukas/Documents/vscode_repo/23_24/MaFin/MafIn_script/main.tex
+**/Users/lukas/Documents/vscode_repo/uni_unterlagen/23_24/MaFin/CN_MaFIn/main.tex
+(/Users/lukas/Documents/vscode_repo/uni_unterlagen/23_24/MaFin/CN_MaFIn/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -699,20 +699,89 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.83496pt}.
 
-[3] (./main.aux) ) 
+[3]
+Overfull \hbox (14.61049pt too wide) in paragraph at lines 170--172
+ \T1/ppl/b/n/10 Im Bsp: \T1/ppl/m/n/10 Angenom-men wir wis-sen, dass A einge-treten ist. Is es dann meht oder weniger wahrschein-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 189.
+
+Missing character: There is no ü in font pplr7t!
+
+Overfull \hbox (17.82094pt too wide) in paragraph at lines 197--198
+\T1/ppl/m/n/10 Oft möchte man Ereignis-sen einen num-merischen Wert zuord-nen (Summe der Au-gen-zahlen, Gewinn). 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.83496pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.83496pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.83496pt}.
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 207.
+
+Missing character: There is no ÿ in font pplr7t!
+
+Overfull \hbox (5.06094pt too wide) in paragraph at lines 213--214
+ \T1/ppl/b/n/10 Bsp: \T1/ppl/m/n/10 Bei einem Wurf eines fairen Wür-fels wer-den den Agen-zahlen fol-gende Gewinne zugewiesen. 
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 215.
+
+Missing character: There is no ü in font pplr7t!
+
+Overfull \hbox (5.67178pt too wide) in paragraph at lines 217--218
+[]\T1/ppl/m/n/10 definiert Zu-fallsvari-able $\OML/zplm/m/it/10 X \OT1/zplm/m/n/10 : \OMS/zplm/m/n/10 f\OT1/ppl/m/n/10 1, 2, 3, 4, 5, 6\OMS/zplm/m/n/10 g ! \U/fplmbb/m/n/10 R \OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 X \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 1\OT1/zplm/m/n/10 ) = \OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 X[]\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 1\OT1/zplm/m/n/10 )) = \OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 f\OML/zplm/m/it/10 w \OMS/zplm/m/n/10 2 \OT1/zplm/m/n/10 
+\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 X\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 w\OT1/zplm/m/n/10 ) =
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.83496pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.83496pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.83496pt}.
+
+[5]
+Overfull \hbox (0.23209pt too wide) in paragraph at lines 233--234
+\T1/ppl/m/n/10 denn bitt??) $\OML/zplm/m/it/10 E\OT1/zplm/m/n/10 [\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ] = ^^F[]\OML/zplm/m/it/10 p[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )\OML/zplm/m/it/10 X \OT1/zplm/m/n/10 = ^^F[]\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 X \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) \OMS/zplm/m/n/10 ^^A \OML/zplm/m/it/10 x$ \T1/ppl/m/n/10 und wird oft mit mü (wie mükrosekunde)
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.83496pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.83496pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.83496pt}.
+
+[6] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 17789 strings out of 476025
- 348486 string characters out of 5790017
- 1864388 words of memory out of 5000000
+ 17794 strings out of 476025
+ 348547 string characters out of 5790017
+ 1866388 words of memory out of 5000000
  37884 multiletter control sequences out of 15000+600000
- 537516 words of font info for 88 fonts, out of 8000000 for 9000
+ 538703 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,131p,761b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (4 pages, 115291 bytes).
+ 117i,11n,131p,772b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (7 pages, 141655 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

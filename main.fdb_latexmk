@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706564910 "/Users/lukas/Documents/vscode_repo/23_24/MaFin/MafIn_script/main.tex" "main.pdf" "main" 1706564912 0
-  "/Users/lukas/Documents/vscode_repo/23_24/MaFin/MafIn_script/main.tex" 1706564909 8853 920b616914f05b6dcde7b181552f6848 ""
+["pdflatex"] 1706793814 "/Users/lukas/Documents/vscode_repo/uni_unterlagen/23_24/MaFin/CN_MaFIn/main.tex" "main.pdf" "main" 1706793816 0
+  "/Users/lukas/Documents/vscode_repo/uni_unterlagen/23_24/MaFin/CN_MaFIn/main.tex" 1706793813 14859 c1e1dead5ff3eec91aa0736139ba3965 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136768653 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
@@ -12,6 +12,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm" 1136768653 2720 70000d5e623e601132eab3cded5b819b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
@@ -22,6 +23,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm" 1136768653 1828 bb8add3bd19426549f9267c88b0cb8bd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm" 1136768653 1012 955c4ca523d7827d33db91a33412b048 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm" 1136768653 1316 b4037e9c09961a72f8476628774e1ec1 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -29,6 +31,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb" 1136849748 12410 7504dd653d0e7cf266cb973aeafd597c ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb" 1136849748 9356 a3851bc942e9b6995883193472ba1847 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb" 1136849748 15213 d999bbe8bd9c8f231f3f66a737c76478 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb" 1136849748 52406 dad2f72863a03727d5f536c64a69c452 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb" 1136849748 52665 661b1e6b26edb5f50dd491f8a701cb57 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb" 1136849748 50022 90249cba7e3e4e9845f80328d6f9bd13 ""
@@ -38,6 +41,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf" 1136768653 2324 a163806de13ddf37313d2ee968aa0a98 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf" 1136768653 1812 de7624743c8bafe2ce204bec2f72ce7e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf" 1136768653 1532 73e2c76c81e4f977ab65540630baf4f0 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/vf/public/mathpazo/zplmr7v.vf" 1136768653 1436 3cc3caf644d79936444909aaff6786a8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf" 1136768653 1372 31129ac1f6b6f62aaec24c8fed41b02b ""
   "/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
@@ -166,8 +170,8 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1683725111 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1683725019 7883454 15dafec1fc7f71b6d440a197086c42ad ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "main.aux" 1706564912 121 4100ebff21a5291508d3b75ad46ef686 "pdflatex"
-  "main.tex" 1706564909 8853 920b616914f05b6dcde7b181552f6848 ""
+  "main.aux" 1706793815 121 af8f3b959fee2fc247e14d6cf194ea56 "pdflatex"
+  "main.tex" 1706793813 14859 c1e1dead5ff3eec91aa0736139ba3965 ""
   (generated)
   "main.aux"
   "main.log"
