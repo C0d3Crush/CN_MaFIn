@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  1 FEB 2024 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  1 FEB 2024 16:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,12 +615,8 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 81
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Overfull \hbox (1.3004pt too wide) in paragraph at lines 81--82
-[]\T1/ppl/m/n/10 Modellierung von Kom-plecxen Sys-te-men (Ak-tien-markt, Verkehr, An-fra-gen bei einem Server) 
- []
-
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 88.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 88.
@@ -655,6 +651,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--94
 
  []
 
+
+Overfull \hbox (20.39442pt too wide) in paragraph at lines 104--108
+\T1/ppl/m/n/10 Möchten um-fassende Ereignisse beschreiben z.B. die Summe der Au-gen-zahl ist 3. $\OML/zplm/m/it/10 A \OT1/zplm/m/n/10 = \OMS/zplm/m/n/10 f\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 1, 2\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 , \OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 2, 1\OT1/zplm/m/n/10 )\OMS/zplm/m/n/10 g ^^R
+ []
+
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 111.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
@@ -667,10 +668,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.83496pt}.
 
 [1]
-Overfull \hbox (12.76067pt too wide) in paragraph at lines 137--138
-[]\T1/ppl/m/n/10 Beschreibe das Ereig-nis, dass mind. ein Wür-fel eine 1 zegt $\OML/zplm/m/it/10 A \OT1/zplm/m/n/10 = \OMS/zplm/m/n/10 f\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 1, 1\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 , []  , \OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 1, 6\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 , \OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 6, 1\OT1/zplm/m/n/10 ) []  \OT1/ppl/m/n/10 , \OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 2, 1\OT1/zplm/m/n/10 )\OMS/zplm/m/n/10 g$
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.83496pt, for example:
@@ -679,6 +676,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.83496pt}.
 
 [2]
+Overfull \hbox (12.76067pt too wide) in paragraph at lines 137--138
+[]\T1/ppl/m/n/10 Beschreibe das Ereig-nis, dass mind. ein Wür-fel eine 1 zegt $\OML/zplm/m/it/10 A \OT1/zplm/m/n/10 = \OMS/zplm/m/n/10 f\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 1, 1\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 , []  , \OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 1, 6\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 , \OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 6, 1\OT1/zplm/m/n/10 ) []  \OT1/ppl/m/n/10 , \OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 2, 1\OT1/zplm/m/n/10 )\OMS/zplm/m/n/10 g$
+ []
+
+
 Overfull \hbox (6.9098pt too wide) in paragraph at lines 146--147
 \T1/ppl/m/n/10 der \T1/ppl/b/n/10 Pro-duk-traum \T1/ppl/m/n/10 von $\OT1/zplm/m/n/10 
 []\OT1/ppl/m/n/10 , []  , \OT1/zplm/m/n/10 
@@ -714,11 +716,6 @@ LaTeX Warning: Command \" invalid in math mode on input line 189.
 
 Missing character: There is no ü in font pplr7t!
 
-Overfull \hbox (17.82094pt too wide) in paragraph at lines 197--198
-\T1/ppl/m/n/10 Oft möchte man Ereignis-sen einen num-merischen Wert zuord-nen (Summe der Au-gen-zahlen, Gewinn). 
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.83496pt, for example:
 (fancyhdr)                \setlength{\headheight}{22.83496pt}.
@@ -726,6 +723,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.83496pt}.
 
 [4]
+Overfull \hbox (17.82094pt too wide) in paragraph at lines 197--198
+\T1/ppl/m/n/10 Oft möchte man Ereignis-sen einen num-merischen Wert zuord-nen (Summe der Au-gen-zahlen, Gewinn). 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
@@ -768,20 +770,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.83496pt}.
 
-[6] (./main.aux) ) 
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.83496pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.83496pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.83496pt}.
+
+[7] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  17794 strings out of 476025
  348547 string characters out of 5790017
- 1866388 words of memory out of 5000000
+ 1867388 words of memory out of 5000000
  37884 multiletter control sequences out of 15000+600000
  538703 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,131p,772b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,131p,772b,289s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (7 pages, 141655 bytes).
+Output written on main.pdf (8 pages, 142296 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
