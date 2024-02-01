@@ -1,1 +1,1 @@
-Für leute die einfach das PDF wollen findet ihr das unter einen der Dateien. Wenn ihr helfen wollt gerne push request machen :-)
+Für leute die einfach das PDF wollen findet ihr das unter einen der Dateien. Wenn ihr helfen wollt gerne push request machen, bzw issue :-)
